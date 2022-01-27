@@ -1,0 +1,44 @@
+  .center-page-news, .center-page-mini{
+    margin: 15px;
+  }
+  .center-page-news-title{
+    color: rgb(49, 114, 40);
+    font-family: 'KOTRA_BOLD-Bold';
+  }
+  .news-contents{
+    display: flex;
+    font-size: 12px;
+    font-family: 'NeoDunggeunmo';
+  }
+  .news1, .news2{
+    flex: 1;
+  }
+  .content1-pic, .content4-pic{
+    display: inline-block;
+    background-color: #92c252;
+    color: white;
+    border-radius: 3px;
+    padding: 3px;
+    margin: 1px;
+  }
+  .content2-pic, .content3-pic{
+    display: inline-block;
+    background-color: rgb(74, 190, 171);
+    color: white;
+    border-radius: 3px;
+    padding: 3px;
+    margin: 1px;
+  }
+  .content1-title, .content2-title, .content3-title, .content4-title{display: inline-block;}
+  
+  .news2-1, .news2-2{
+    display: flex;
+    border-bottom: 2px dotted #919191;
+    margin-bottom: 5px;
+    padding: 1px;
+  }
+  .diary, .gallery, .board, .address{flex: 1;}
+  .center-page-mini-title{
+    color: rgb(49, 114, 40);
+    font-family: 'KOTRA_BOLD-Bold';
+  }

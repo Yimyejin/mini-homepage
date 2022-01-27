@@ -1,0 +1,47 @@
+.center-visit{
+    margin: 15px;
+    overflow: auto;
+    height: 500px;
+    font-family: 'NeoDunggeunmo';
+}
+.visit-box{
+    margin-bottom: 40px;
+    background-color: rgb(243, 243, 243);
+    padding: 0px 0px 5px 0px;
+}
+.visit-title{
+    background-color: rgb(231, 231, 231);
+    padding: 10px;
+}
+.fa-address-book{
+    margin: 0px 10px;
+}
+.visit-content{
+    margin: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+.visit-img{
+    height: 140px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0.3;
+    border: 3px solid rgb(174, 196, 170);
+    border-radius: 20px;
+    background-color: white;
+}
+.background-1>img{
+    width: 95%;
+}
+
+.visit-text{
+    margin: 0px 15px;
+    flex: 0.7;
+}
+.visitor{
+    color: rgb(64, 119, 64);
+}

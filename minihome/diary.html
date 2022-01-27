@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8" />
+    <title>2022 MINI HOMEPAGE - DIARY</title>
+    <link rel="stylesheet" href="./static/font.css"/>
+    <link rel="stylesheet" href="./static/layout.css"/>
+    <link rel="stylesheet" href="./static/diary.css"/>
+    <script src="https://kit.fontawesome.com/93ec219314.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="bookcover">
+        <div class="bookdot">
+            <div class="page">
+                <div class="left">
+                    <div class="left-title">TODAY <span style="color: red;">28 </span> | TOTAL 23418</div>
+                    <div class="left-page">
+                        <div class="left-page-img">
+                            <img src="./static/images/introduce.jpg" alt="코딩중인 개발자" width="100%" height="100%">
+                        </div>
+                        <div class="left-page-letter1">
+                            <p>저는 코딩중인 개발자입니다. <br>개발자이지만 코딩 고수는 아니랍니다 헷(∗❛⌄❛∗)ᕗ <br>이제 곧 3학년이지만 ~ 3학년 같지 않은.. <br>그저 귀여운 감자랍니다..~</p>
+                        </div>
+                        <div class="left-page-letter2">
+                            코딩중인 개발자(ू•ᴗ•ू❁)
+                        </div>
+                        <div class="left-page-dropdown">
+                            <select name="surfing" class="surfing" onchange="window.open(value, '_blank');">
+                                <option value="none" selected disabled hidden>개발자의 SNS 바로가기</option>
+                                <option value="https://codemate.kr/@loveim0112">코드메이트</option>
+                                <option value="https://www.instagram.com/compu__te/">인스타그램</a></option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="center">
+                    <div class="center-title">
+                        <div class="center-title-memory">dveloper의 미니홈피 .. ( ´͈ ᵕ `͈ )◞♡</div>
+                        <div class="center-title-url">https://codemate.kr/@loveim0112</div>
+                    </div>
+                    <div class="center-page">
+                        <div class="center-page-date">
+                            <div class="date-today">
+                                01.25<br>TUE
+                            </div>
+                            <div class="date-month">
+                                <span class="sat">1</span>
+                                <span class="sun">2</span>
+                                3 4 5 6 7
+                                <span class="sat">8</span>
+                                <span class="sun">9</span>
+                                10 11 12 13 14
+                                <span class="sat">15</span>
+                                <span class="sun">16</span>
+                                17 18 19 20 21
+                                <span class="sat">22</span>
+                                <span class="sun">23</span>
+                                24 25 26 27 28
+                                <span class="sat">29</span>
+                                <span class="sun">30</span>
+                                <span class="sun">31</span>
+                            </div>
+                        </div>
+                        <div class="center-page-diary">
+                            <div class="diary-inner">
+                                <div class="diary-date">2022.01.01 토 23:00</div>
+                                <div class="diary-content">
+                                    오늘은 2022년 첫 날! ( ˃ᴗ˂ )<br>
+                                    벌써 22살이 되었다는 허무함과 새로운 시작으로 설렘이 느껴졌다.<br>
+                                    2021년을 돌아보았을 때 나름 열심히 보낸것 같았지만 더 열심히, 알차게 보낼 수 있었다는 후회도 조금 들었다.<br>.<br>.<br>
+                                    하지만 작년에 못 이룬 것들 올해 모두 이룰 수 있도록 열심히 노력해야지 ✧*｡٩(ˊᗜˋ*)و✧*｡<br>
+                                </div>
+                            </div>
+                            <div class="diary-inner">
+                                <div class="diary-date">2022.01.02 일 19:00</div>
+                                <div class="diary-content">
+                                    오늘은 새해 기념 헬스장을 끊었다.<br>
+                                    올해는 꼭 다이어트 성공해서 여름에 비키니 입어야지 (⑅˘͈ ᵕ ˘͈ )<br><br>
+                                    다이어트 뿐만 아니라 건강도 잘 챙기자! 벌써 내 나이 ``~<br><br>
+                                    1월 목표, 주 5일 헬스장 출석하기.<br>
+                                    지킬 수 있을까 ? 화이팅! (･ัᗜ･ั)و<br>
+                                </div>
+                            </div>
+                            <div class="diary-inner">
+                                <div class="diary-date">2022.01.03 월 20:00</div>
+                                <div class="diary-content">
+                                    2022년 첫 알바한 날 (≡•̀·̯•́≡)<br>
+                                    올해도 열심히 용돈 벌어야지 .. ~<br><br>
+                                    작년동안 봐왔던 아이들이 벌써 한 살 더 먹었다니!<br>
+                                    올해 중학생 되는 아이들은 떨려하는데 너무 귀여웠다 ( ͡~ ͜ʖ ͡°)<br>
+                                    얘들아 올해도 잘 부탁해 !! 말 좀 잘 듣자 ٩˙ヘ˙و<br>
+                                </div>
+                            </div>
+                            <div class="center-page-secret">
+                                <button class="diary-button" onclick="getTextFile()">
+                                    <i class="fas fa-lock"></i>개발자의 비밀일기 보기
+                                </button>
+                            </div>
+                            <div class="diary-box" id="secret-box">
+                                <div class="diary-date">개발자의 비밀 일기</div>
+                                <div class="diary-content font-kyobohand" id="secret-diary"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="menu">
+                        <div class="menu-home"><a href="./home.html">홈</a></div>
+                        <div class="menu-diary"><a href="./diary.html">다이어리</a></div>
+                        <div class="menu-gallery"><a href="./gallery.html">사진첩</a></div>
+                        <div class="menu-visitor"><a href="./visitor.html">방명록</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function getTextFile(){
+            var input=document.createElement("input");
+            input.type="file";
+            input.accept="text/plain";
+            input.onchange=function(event){
+                processFile(event.target.files[0]);
+            };
+            input.click();
+        }
+        function processFile(file){
+            var reader=new FileReader();
+            reader.readAsText(file, "utf-8");
+
+            reader.onload=function(){
+                document.getElementById("secret-diary").innerText=reader.result;
+                document.getElementById("secret-box").style.display="block";
+            };
+        }
+    </script>
+</body>
+</html>

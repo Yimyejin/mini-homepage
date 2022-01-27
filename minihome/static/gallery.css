@@ -1,0 +1,23 @@
+.center-gallery{
+    margin: 15px;
+    
+    overflow: auto;
+    height: 500px;
+}
+.gallery-picture{
+    margin-bottom: 40px;
+    background-color: rgb(243, 243, 243);
+}
+.gallery-title{
+    background-color: rgb(231, 231, 231);
+    font-family: 'NeoDunggeunmo';
+    padding: 8px;
+}
+.gallery-pic{
+    padding: 0px 20px;
+}
+.gallery-content{
+    padding: 10px 20px;
+    font-family: 'NeoDunggeunmo';
+    font-size: 12px;
+}
